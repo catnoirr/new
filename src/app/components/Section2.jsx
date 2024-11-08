@@ -1,17 +1,15 @@
 import React from 'react';
 import { FaAward } from "react-icons/fa";
-import Image from 'next/image';
-
 
 
 const Hero = () => {
   return (
-    <section className="flex flex-col md:flex-row  items-center justify-between bg-gray-10  p-5 md:p-16 md:ml-16">
+    <section className="flex flex-col md:flex-row  items-center justify-between bg-gray-10  p-5 md:p-16 ">
       {/* Left Side - Images and Statistics */}
       <div className="flex gap-4">
         {/* Image 1 */}
         
-        <Image src="/image1.png" alt="Workplace" className="rounded-lg shadow-md sm:w-64 w-36 h-auto hidden md:block" />
+        <img src="/image1.png" alt="Workplace" className="rounded-lg shadow-md sm:w-64 w-36 h-auto hidden md:block" />
         
         {/* Statistics Boxes */}
         <div className='flex flex-col gap-4 '>
@@ -29,7 +27,7 @@ const Hero = () => {
 
         {/* Image 2 */}
         <div className='h-full'>
-        <Image src="/image2.png" alt="Workplace" className="rounded-lg shadow-md h-full object-cover" />
+        <img src="/image2.png" alt="Workplace" className="rounded-lg shadow-md h-full object-cover" />
         </div>
       </div>
       </div>

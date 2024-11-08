@@ -1,16 +1,14 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
-import Image from 'next/image';
-
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-10 px-6 md:px-16 md:ml-20">
+    <footer className="bg-black text-white py-10 px-6 md:px-16 md:ml-20 border-red-700 border">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mt-6">
         {/* Logo and Description */}
         <div className="flex flex-col">
           <div className="flex items-center space-x-2">
-            <Image src="image.png" alt="Oohpoint Logo" className="w-16 h-12" /> {/* Replace with the actual logo source */}
+            <img src="image.png" alt="Oohpoint Logo" className="w-16 h-12" /> {/* Replace with the actual logo source */}
           </div>
           <p className="text-gray-400 mt-4">
             We help brands achieve impactful and data-driven advertising campaigns.

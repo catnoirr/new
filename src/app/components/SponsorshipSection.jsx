@@ -1,7 +1,5 @@
 import React from 'react';
 import { FaUserGraduate, FaChessRook, FaBullseye, FaUsers, FaTheaterMasks } from 'react-icons/fa';
-import Image from 'next/image';
-
 
 const SponsorshipSection = () => {
   return (
@@ -15,7 +13,7 @@ const SponsorshipSection = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Left Side - Sponsorship Image */}
           <div className="flex justify-center items-center">
-            <Image src="spomsor.png" alt="Sponsorship" className="rounded-lg shadow-md" />
+            <img src="spomsor.png" alt="Sponsorship" className="rounded-lg shadow-md" />
           </div>
 
           {/* Right Side - Sponsorship Details */}
@@ -60,7 +58,7 @@ const SponsorshipSection = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-800">Corporate Gatherings</h3>
-                <p className="text-gray-600">Work together to support each other growth.</p>
+                <p className="text-gray-600">Work together to support each other's growth.</p>
               </div>
             </div>
 

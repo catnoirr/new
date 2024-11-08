@@ -16,7 +16,7 @@ const Testimonials = () => {
         {/* Left Content - Testimonials Carousel */}
         <div className="md:w-1/2">
           <p className="text-sm text-purple-600 font-semibold mb-2">Testimonials & Reviews</p>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">See how we have helped our clients succeed</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">See how we've helped our clients succeed</h2>
           <p className="text-gray-600 mb-8">More than 1500+ agencies using Ooh Point</p>
 
           <Swiper
@@ -42,10 +42,10 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="text-gray-700 mb-4">
-                      Oohpoint really made a huge difference for our college fest. They not only sponsored the event but also designed amazing creative assets that made the event more memorable.
+                      "Oohpoint really made a huge difference for our college fest. They not only sponsored the event but also designed amazing creative assets that made the event more memorable."
                     </p>
                     <div className="flex items-center space-x-4">
-                      <Image src="/user1.jpeg" alt="Rahul" className="w-10 h-10 rounded-full" />
+                      <img src="/user1.jpeg" alt="Rahul" className="w-10 h-10 rounded-full" />
                       <div>
                         <p className="text-sm font-semibold text-gray-800">Rahul, Final Year BMS</p>
                       </div>
@@ -63,10 +63,10 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <p className="text-gray-700 mb-4">
-                      Oohpoint sponsorship really gave a major change to our fest. The team was professional, and the crowd was excited to see what was presented.
+                      "Oohpoint's sponsorship really gave a major change to our fest. The team was professional, and the crowd was excited to see what was presented."
                     </p>
                     <div className="flex items-center space-x-4">
-                      <Image src="/user1.jpeg" alt="Sneha" className="w-10 h-10 rounded-full" />
+                      <img src="/user1.jpeg" alt="Sneha" className="w-10 h-10 rounded-full" />
                       <div>
                         <p className="text-sm font-semibold text-gray-800">Sneha, Cultural Secretary</p>
                       </div>
@@ -82,7 +82,7 @@ const Testimonials = () => {
         <div className="md:w-1/2 flex justify-center items-center bg-gray-100 relative m-16">
           <div className="relative max-w-md">
             {/* Dots decoration behind the main image */}
-            <Image
+            <img
               src="dot2.png"
               alt="Decorative dots"
               className="absolute -top-20 -right-16 sm:-top-40 sm:-right-20  w-32 sm:w-56 z-10"
@@ -100,14 +100,14 @@ const Testimonials = () => {
             {/* Top Card - Meeting With */}
             <div className="absolute -top-5 -left-20 sm:right-40 right-24 bg-purple-900 text-white p-3 rounded-lg shadow-lg flex items-center space-x-2 z-20">
             <div className="flex -space-x-2">
-                <Image
+                <img
                   src="/user1.jpeg" // Replace with actual path
                   alt="Avatar 1"
                   className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-purple-900"
                 />
                
               </div>
-              <span className="text-xs sm:text-sm font-semibold">The best Bootstrap theme we have ever used </span>
+              <span className="text-xs sm:text-sm font-semibold">The best Bootstrap theme we've ever used </span>
               
             </div>
 
@@ -116,7 +116,7 @@ const Testimonials = () => {
             
               <span className="text-xs sm:text-sm font-semibold">Excelent Work</span>
               <div className="flex -space-x-2">
-                <Image
+                <img
                   src="/user1.jpeg" // Replace with actual path
                   alt="Avatar 1"
                   className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-purple-800"

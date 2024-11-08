@@ -1,10 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
-
 
 const HowItWorks = () => {
   return (
-    <section className="bg-gray-100 py-16 md:ml-24">
+    <section className="bg-gray-100 py-16 ">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center md:mb-32 mb-12">How It Works?</h2>
         
@@ -43,7 +41,7 @@ const HowItWorks = () => {
 
           {/* Mobile Device Image */}
           <div className="relative mx-auto my-8 md:my-0 md:bottom-32">
-            <Image src="/mobile.png" alt="Dashboard" className="w-64 md:w-80  rounded-lg" />
+            <img src="/mobile.png" alt="Dashboard" className="w-64 md:w-80  rounded-lg" />
             {/* Rating */}
             <div className="text-center mt-4">
               <p className="text-yellow-500 text-lg font-bold">★★★★☆</p>

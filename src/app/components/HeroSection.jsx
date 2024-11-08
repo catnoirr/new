@@ -2,7 +2,6 @@ import React from 'react';
 import Sidebar from "./Sidebar";
 import Image from 'next/image';
 import { FaAward } from "react-icons/fa";
-
 export default function Home() {
   return (
     <div className="">
@@ -20,7 +19,7 @@ export default function Home() {
         </button>
       </div>
 
-      <main className="flex flex-col  md:flex-row justify-between items-center gap-16 sm:gap-20 p-6 mt-20 sm:mt-40 md:ml-20">
+      <main className="flex flex-col  md:flex-row justify-between items-center gap-16 sm:gap-20 p-6 mt-20 sm:mt-40 ">
         <div className="md:flex-1">
           <div className="flex items-center mb-4  bg-gray-200 border rounded-xl shadow p-2 w-64 sm:w-72">
             <i> <FaAward className="text-4xl text-red-800" /></i>
@@ -30,7 +29,7 @@ export default function Home() {
             Maximize Engagement at Your Next Big Event!
           </h1>
           <p className="text-gray-600 mb-8 text-sm sm:text-base">
-            At Oohpoint, we are passionate about partnering with events of all types—college fests, corporate gatherings, competitions, and more. Whether its a small or large event, we can provide the perfect sponsorship to ensure your attendees get the most out of your occasion.
+            At Oohpoint, we are passionate about partnering with events of all types—college fests, corporate gatherings, competitions, and more. Whether it's a small or large event, we can provide the perfect sponsorship to ensure your attendees get the most out of your occasion.
           </p>
 
           <div className="flex  gap-4 bg-white p-2 rounded-md justify-center">
@@ -48,7 +47,7 @@ export default function Home() {
         <div className="flex justify-center items-center bg-gray-100 md:flex-1  md:w-auto">
           <div className="relative max-w-md w-full">
             {/* Dots decoration behind the main image */}
-            <Image
+            <img
               src="dots.png"
               alt="Decorative dots"
               className="absolute -top-12 -right-12 sm:-top-20 sm:-right-20 w-40 sm:w-60 z-0"
@@ -67,12 +66,12 @@ export default function Home() {
             <div className="absolute -top-5 -right-4 sm:-right-8 bg-purple-900 text-white p-3 rounded-lg shadow-lg flex items-center space-x-2 z-20">
               <span className="text-xs sm:text-sm font-semibold">Meeting with</span>
               <div className="flex -space-x-2">
-                <Image
+                <img
                   src="/user1.jpeg" // Replace with actual path
                   alt="Avatar 1"
                   className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-purple-800"
                 />
-                <Image
+                <img
                   src="/user1.jpeg" // Replace with actual path
                   className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-purple-800"
                   alt="Avatar 2"
@@ -85,17 +84,17 @@ export default function Home() {
               <p className="text-xs sm:text-sm font-semibold">Our Lovely Customers</p>
               <div className="flex items-center space-x-2 mt-1">
                 <div className="flex -space-x-2">
-                  <Image
+                  <img
                     src="/user1.jpeg" // Replace with actual path
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-purple-800"
                     alt="Avatar 3"
                   />
-                  <Image
+                  <img
                     src="/user1.jpeg" // Replace with actual path
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-purple-800"
                     alt="Avatar 4"
                   />
-                  <Image
+                  <img
                     src="/user1.jpeg" // Replace with actual path
                     className="w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 border-purple-800"
                     alt="Avatar 5"
@@ -111,7 +110,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <div className="flex flex-wrap justify-between items-center py-4 px-4 md:ml-28 md:mr-6 gap-4">
+      <div className="flex flex-wrap justify-between items-center py-4 px-4  gap-4">
   {/* Heading */}
   <div className="w-full md:w-52">
     <h1 className="text-lg md:text-xl font-semibold text-center md:text-left">
@@ -121,10 +120,10 @@ export default function Home() {
 
   {/* Logos */}
   <div className="flex flex-wrap justify-around items-center gap-4 md:gap-6 w-full md:w-auto flex-1">
-    <Image src="/Malboro.png" alt="Malboro Logo" className="h-8 w-auto" />
-    <Image src="/intel.png" alt="Intel Logo" className="h-8 w-auto" />
-    <Image src="/Amazon.png" alt="Amazon Logo" className="h-8 w-auto" />
-    <Image src="/Uber.png" alt="Uber Logo" className="h-8 w-auto" />
+    <img src="/Malboro.png" alt="Malboro Logo" className="h-8 w-auto" />
+    <img src="/intel.png" alt="Intel Logo" className="h-8 w-auto" />
+    <img src="/Amazon.png" alt="Amazon Logo" className="h-8 w-auto" />
+    <img src="/Uber.png" alt="Uber Logo" className="h-8 w-auto" />
   </div>
 </div>
 
